@@ -153,9 +153,11 @@
 			}
 
 			else {
+							console.log(formData)
+
 					 $.ajax({
 							type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
-							url         : 'assets/php/contact.php', // the url where we want to POST
+							url         : 'https://cors-anywhere.herokuapp.com/assets/php/contact.php', // the url where we want to POST
 							data        : formData, // our data object
 							dataType    : 'json', // what type of data do we expect back from the server
 							encode      : true,
@@ -163,8 +165,9 @@
 											var ret = $.parseJSON(JSON.stringify(res));
 											response.html(ret.message).fadeIn(500);
 							}
-						}).then(function(){
-							console.log(formData)
+						}).done(function(res, err){
+							console.log(res)
+							console.log(err)
 						});
 				}           
             	return false;

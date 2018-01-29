@@ -442,16 +442,16 @@
 						<div class="ajax-hidden">
 							<div class="form-group wow fadeInUp">
 								<label class="sr-only" for="c_name">Name</label>
-								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name" required="required" data-error='Name is required'>
 							</div>
 
 							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
 								<label class="sr-only" for="c_email">Email</label>
-								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail" required="required" data-error='Valid email is required'>
 							</div>
 
 							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
-								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Message"></textarea>
+								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Message" required="required" data-error='Please add a message'></textarea>
 							</div>
 
 							<button type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Send Message</button>
