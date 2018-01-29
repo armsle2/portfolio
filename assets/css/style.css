@@ -572,8 +572,12 @@ textarea.form-control {
 
 .navbar-custom .navbar-brand {
 	font-weight: 700;
-	font-size: 22px;
+	font-size: 150%;
     font-family: 'Cinzel Decorative', cursive;
+}
+
+.navbar-brand {
+    padding-right: 0px;
 }
 
 .navbar-custom .dropdown-menu {
