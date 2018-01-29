@@ -127,6 +127,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-magic-wand:before {
 	content: "\e017";
+	font-size: 1.5em;
 }
 .icon-hourglass:before {
 	content: "\e018";
@@ -172,6 +173,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-puzzle:before {
 	content: "\e02d";
+	font-size: 1.5em;
 }
 .icon-printer:before {
 	content: "\e02e";
@@ -391,6 +393,7 @@ you can use the generic selector below, but it's slower:
 }
 .icon-bulb:before {
 	content: "\e076";
+	font-size: 1.5em;
 }
 .icon-bar-chart:before {
 	content: "\e077";
